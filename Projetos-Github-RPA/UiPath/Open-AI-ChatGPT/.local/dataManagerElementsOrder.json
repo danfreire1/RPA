@@ -1,0 +1,54 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "intLinhaAtual&Sequence_1",
+        "strTextoCorrigido&Sequence_3",
+        "jsonObjDadosAPI&Sequence_3",
+        "strCorpoAPI&Sequence_3",
+        "strTextoInput&Sequence_3",
+        "dtDadosExcel&Sequence_1",
+        "strRespostaAPI&Sequence_1",
+        "intCodigoAPI&Sequence_1",
+        "strChaveAPI&Sequence_1",
+        "strUrlAPI&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Identificar_Idioma_Texto.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strUrlAPI&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_idiomaTexto",
+        "in_Texto"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": ".local/ActivityTestBench/Bench_0.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strTextoCorrigido&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
