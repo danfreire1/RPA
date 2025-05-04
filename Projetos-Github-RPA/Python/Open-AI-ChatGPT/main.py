@@ -99,6 +99,7 @@ def chamadaApiOpenAI(apiKey, data):
 # Definir variáveis iniciais
 apiKey = os.environ['OPENAI_API_KEY']
 url = 'https://api.openai.com/v1/chat/completions'
+
 excelPath = r'.\Exemplo1.xlsx'
 sheet = 'Plan1'
 colunaOutput = 'Output'
@@ -118,7 +119,7 @@ for i, data in excelDf.iterrows():
         "messages": [
             {
                 "role": "user",
-                "content": f"Por favor, corrija o seguinte texto: '{textoInput}' e me retorne somente o texto corrigido como resposta."
+                "content": f"Por favor, corrija o seguinte texto: '{textoInput}' e me retorne somente o texto corrigido como resposta em inglês."
             }
         ]
     }
